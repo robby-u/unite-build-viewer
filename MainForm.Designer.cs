@@ -65,20 +65,22 @@
             this.heldItemsList.Images.SetKeyName(2, "Attack+Weight.jpg");
             this.heldItemsList.Images.SetKeyName(3, "Buddy+Barrier.jpg");
             this.heldItemsList.Images.SetKeyName(4, "Choice+Specs.jpg");
-            this.heldItemsList.Images.SetKeyName(5, "Energy+Amplifier.jpg");
-            this.heldItemsList.Images.SetKeyName(6, "Exp+Share.jpg");
-            this.heldItemsList.Images.SetKeyName(7, "Float+Stone.jpg");
-            this.heldItemsList.Images.SetKeyName(8, "Focus+Band.jpg");
-            this.heldItemsList.Images.SetKeyName(9, "Leftovers.jpg");
-            this.heldItemsList.Images.SetKeyName(10, "Muscle+Band.jpg");
-            this.heldItemsList.Images.SetKeyName(11, "Razor+Claw.jpg");
-            this.heldItemsList.Images.SetKeyName(12, "Rocky+Helmet.jpg");
-            this.heldItemsList.Images.SetKeyName(13, "Scope+Lens.jpg");
-            this.heldItemsList.Images.SetKeyName(14, "Score+Shield.jpg");
-            this.heldItemsList.Images.SetKeyName(15, "Shell+Bell.jpg");
-            this.heldItemsList.Images.SetKeyName(16, "Special+Attack+Specs.jpg");
-            this.heldItemsList.Images.SetKeyName(17, "Weakness+Policy.jpg");
-            this.heldItemsList.Images.SetKeyName(18, "Wise+Glasses.jpg");
+            this.heldItemsList.Images.SetKeyName(5, "Drain+Crown.jpg");
+            this.heldItemsList.Images.SetKeyName(6, "Energy+Amplifier.jpg");
+            this.heldItemsList.Images.SetKeyName(7, "Exp+Share.jpg");
+            this.heldItemsList.Images.SetKeyName(8, "Float+Stone.jpg");
+            this.heldItemsList.Images.SetKeyName(9, "Focus+Band.jpg");
+            this.heldItemsList.Images.SetKeyName(10, "Leftovers.jpg");
+            this.heldItemsList.Images.SetKeyName(11, "Muscle+Band.jpg");
+            this.heldItemsList.Images.SetKeyName(12, "Rapid+Fire+Scarf.jpg");
+            this.heldItemsList.Images.SetKeyName(13, "Razor+Claw.jpg");
+            this.heldItemsList.Images.SetKeyName(14, "Rocky+Helmet.jpg");
+            this.heldItemsList.Images.SetKeyName(15, "Scope+Lens.jpg");
+            this.heldItemsList.Images.SetKeyName(16, "Score+Shield.jpg");
+            this.heldItemsList.Images.SetKeyName(17, "Shell+Bell.jpg");
+            this.heldItemsList.Images.SetKeyName(18, "Special+Attack+Specs.jpg");
+            this.heldItemsList.Images.SetKeyName(19, "Weakness+Policy.jpg");
+            this.heldItemsList.Images.SetKeyName(20, "Wise+Glasses.jpg");
             // 
             // button2
             // 
