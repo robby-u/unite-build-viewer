@@ -54,7 +54,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Held Item 1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
             // 
             // heldItemsList
             // 
@@ -94,7 +94,7 @@
             this.button2.TabIndex = 4;
             this.button2.Text = "Held Item 2";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button2_MouseDown);
             // 
             // button3
             // 
@@ -108,7 +108,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Held Item 3";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button3_MouseDown);
             // 
             // button4
             // 
@@ -122,7 +122,7 @@
             this.button4.TabIndex = 1;
             this.button4.Text = "Change Pokemon";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button4_MouseDown);
             // 
             // pokemonList
             // 
@@ -201,7 +201,7 @@
             this.button5.TabIndex = 2;
             this.button5.Text = "Battle Item";
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button5_MouseDown);
             // 
             // label1
             // 
