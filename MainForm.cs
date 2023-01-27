@@ -23,6 +23,19 @@ namespace Unite_BuildDisplay
             InitializeComponent();
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            resized_heldItemList = resizedImageList(heldItemsList, 96, 96);
+            resized_pokemonList = resizedImageList(pokemonList, 144, 144);
+            resized_battleItemList = resizedImageList(battleItemsList, 96, 96);
+            this.label1.BackColor = Color.Transparent;
+            this.label2.BackColor = Color.Transparent;
+
+            this.menuStrip1.BackColor = Color.Transparent;
+            this.menuStrip1.ForeColor = Color.White;
+
+        }
+
         private ImageList resizedImageList(ImageList passedImageList, int Width, int Height)
         {
             ImageList largeImageList = new ImageList();
@@ -36,14 +49,14 @@ namespace Unite_BuildDisplay
             return listView.LargeImageList;
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private void setFormColor(Color color)
         {
-            resized_heldItemList = resizedImageList(heldItemsList, 96, 96);
-            resized_pokemonList = resizedImageList(pokemonList, 144, 144);
-            resized_battleItemList = resizedImageList(battleItemsList, 96, 96);
-            this.label1.BackColor = Color.Transparent;
-            this.label2.BackColor = Color.Transparent;
-
+            this.BackColor = color;
+            this.button1.BackColor = color;
+            this.button2.BackColor = color;
+            this.button3.BackColor = color;
+            this.button4.BackColor = color;
+            this.button5.BackColor = color;
         }
 
         // Change Held Item 1
@@ -132,6 +145,34 @@ namespace Unite_BuildDisplay
                 else battle_item = resized_battleItemList.Images.Count - 1;
             }
             this.button5.BackgroundImage = resized_battleItemList.Images[battle_item];
+        }
+
+        // Default screen background
+        private void defaultToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = Properties.Resources.background_small;
+            setFormColor(Color.DarkSlateBlue);
+        }
+
+        // Green screen background
+        private void greenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            setFormColor(Color.Lime);
+        }
+
+        // Blue screen background
+        private void blueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            setFormColor(Color.Blue);
+        }
+
+        // Pink screen background
+        private void magentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            setFormColor(Color.Magenta);
         }
     }
 }
