@@ -47,6 +47,8 @@
             this.greenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.magentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.presetsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewPresetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,26 +75,30 @@
             this.heldItemsList.Images.SetKeyName(1, "Assault+Vest.jpg");
             this.heldItemsList.Images.SetKeyName(2, "Attack+Weight.jpg");
             this.heldItemsList.Images.SetKeyName(3, "Buddy+Barrier.jpg");
-            this.heldItemsList.Images.SetKeyName(4, "Choice+Specs.jpg");
-            this.heldItemsList.Images.SetKeyName(5, "Drain+Crown.jpg");
-            this.heldItemsList.Images.SetKeyName(6, "Energy+Amplifier.jpg");
-            this.heldItemsList.Images.SetKeyName(7, "Exp+Share.jpg");
-            this.heldItemsList.Images.SetKeyName(8, "Float+Stone.jpg");
-            this.heldItemsList.Images.SetKeyName(9, "Focus+Band.jpg");
-            this.heldItemsList.Images.SetKeyName(10, "Leftovers.jpg");
-            this.heldItemsList.Images.SetKeyName(11, "Muscle+Band.jpg");
-            this.heldItemsList.Images.SetKeyName(12, "Rapid+Fire+Scarf.jpg");
-            this.heldItemsList.Images.SetKeyName(13, "Razor+Claw.jpg");
-            this.heldItemsList.Images.SetKeyName(14, "Rocky+Helmet.jpg");
-            this.heldItemsList.Images.SetKeyName(15, "Rescue+Hood.jpg");
-            this.heldItemsList.Images.SetKeyName(16, "Rusted+Sword.jpg");
-            this.heldItemsList.Images.SetKeyName(17, "Scope+Lens.jpg");
-            this.heldItemsList.Images.SetKeyName(18, "Score+Shield.jpg");
-            this.heldItemsList.Images.SetKeyName(19, "Shell+Bell.jpg");
-            this.heldItemsList.Images.SetKeyName(20, "Slick+Spoon.jpg");
-            this.heldItemsList.Images.SetKeyName(21, "Special+Attack+Specs.jpg");
-            this.heldItemsList.Images.SetKeyName(22, "Weakness+Policy.jpg");
-            this.heldItemsList.Images.SetKeyName(23, "Wise+Glasses.jpg");
+            this.heldItemsList.Images.SetKeyName(4, "Charging+Charm.png");
+            this.heldItemsList.Images.SetKeyName(5, "Choice+Specs.jpg");
+            this.heldItemsList.Images.SetKeyName(6, "Curse+Bangle.png");
+            this.heldItemsList.Images.SetKeyName(7, "Curse+Incense.png");
+            this.heldItemsList.Images.SetKeyName(8, "Drain+Crown.jpg");
+            this.heldItemsList.Images.SetKeyName(9, "Energy+Amplifier.jpg");
+            this.heldItemsList.Images.SetKeyName(10, "Exp+Share.jpg");
+            this.heldItemsList.Images.SetKeyName(11, "Float+Stone.jpg");
+            this.heldItemsList.Images.SetKeyName(12, "Focus+Band.jpg");
+            this.heldItemsList.Images.SetKeyName(13, "Leftovers.jpg");
+            this.heldItemsList.Images.SetKeyName(14, "Muscle+Band.jpg");
+            this.heldItemsList.Images.SetKeyName(15, "Rapid+Fire+Scarf.jpg");
+            this.heldItemsList.Images.SetKeyName(16, "Razor+Claw.jpg");
+            this.heldItemsList.Images.SetKeyName(17, "Rocky+Helmet.jpg");
+            this.heldItemsList.Images.SetKeyName(18, "Rescue+Hood.jpg");
+            this.heldItemsList.Images.SetKeyName(19, "Resonant+Guard.png");
+            this.heldItemsList.Images.SetKeyName(20, "Rusted+Sword.jpg");
+            this.heldItemsList.Images.SetKeyName(21, "Scope+Lens.jpg");
+            this.heldItemsList.Images.SetKeyName(22, "Score+Shield.jpg");
+            this.heldItemsList.Images.SetKeyName(23, "Shell+Bell.jpg");
+            this.heldItemsList.Images.SetKeyName(24, "Slick+Spoon.jpg");
+            this.heldItemsList.Images.SetKeyName(25, "Special+Attack+Specs.jpg");
+            this.heldItemsList.Images.SetKeyName(26, "Weakness+Policy.jpg");
+            this.heldItemsList.Images.SetKeyName(27, "Wise+Glasses.jpg");
             // 
             // button2
             // 
@@ -147,51 +153,63 @@
             this.pokemonList.Images.SetKeyName(1, "aegislash.jpg");
             this.pokemonList.Images.SetKeyName(2, "azumarill.jpg");
             this.pokemonList.Images.SetKeyName(3, "blastoise.jpg");
-            this.pokemonList.Images.SetKeyName(4, "blissey.jpg");
-            this.pokemonList.Images.SetKeyName(5, "buzzwole.jpg");
-            this.pokemonList.Images.SetKeyName(6, "charizard.jpg");
-            this.pokemonList.Images.SetKeyName(7, "cinderace.jpg");
-            this.pokemonList.Images.SetKeyName(8, "clefable.jpg");
-            this.pokemonList.Images.SetKeyName(9, "comfey.jpg");
-            this.pokemonList.Images.SetKeyName(10, "cramorant.jpg");
-            this.pokemonList.Images.SetKeyName(11, "crustle.jpg");
-            this.pokemonList.Images.SetKeyName(12, "decidueye.jpg");
-            this.pokemonList.Images.SetKeyName(13, "delphox.jpg");
-            this.pokemonList.Images.SetKeyName(14, "dodrio.jpg");
-            this.pokemonList.Images.SetKeyName(15, "dragapult.jpg");
-            this.pokemonList.Images.SetKeyName(16, "dragonite.jpg");
-            this.pokemonList.Images.SetKeyName(17, "duraludon.jpg");
-            this.pokemonList.Images.SetKeyName(18, "eldegoss.jpg");
-            this.pokemonList.Images.SetKeyName(19, "espeon.jpg");
-            this.pokemonList.Images.SetKeyName(20, "garchomp.jpg");
-            this.pokemonList.Images.SetKeyName(21, "gardevoir.jpg");
-            this.pokemonList.Images.SetKeyName(22, "gengar.jpg");
-            this.pokemonList.Images.SetKeyName(23, "glaceon.jpg");
-            this.pokemonList.Images.SetKeyName(24, "greedent.jpg");
-            this.pokemonList.Images.SetKeyName(25, "greninja.jpg");
-            this.pokemonList.Images.SetKeyName(26, "hoopa.jpg");
-            this.pokemonList.Images.SetKeyName(27, "lucario.jpg");
-            this.pokemonList.Images.SetKeyName(28, "machamp.jpg");
-            this.pokemonList.Images.SetKeyName(29, "mamoswine.jpg");
-            this.pokemonList.Images.SetKeyName(30, "mew.jpg");
-            this.pokemonList.Images.SetKeyName(31, "mr. mime.jpg");
-            this.pokemonList.Images.SetKeyName(32, "ninetails.jpg");
-            this.pokemonList.Images.SetKeyName(33, "pikachu.jpg");
-            this.pokemonList.Images.SetKeyName(34, "sableye.jpg");
-            this.pokemonList.Images.SetKeyName(35, "scizor.jpg");
-            this.pokemonList.Images.SetKeyName(36, "slowbro.jpg");
-            this.pokemonList.Images.SetKeyName(37, "snorlax.jpg");
-            this.pokemonList.Images.SetKeyName(38, "sylveon.jpg");
-            this.pokemonList.Images.SetKeyName(39, "talonflame.jpg");
-            this.pokemonList.Images.SetKeyName(40, "trevenant.jpg");
-            this.pokemonList.Images.SetKeyName(41, "tsareena.jpg");
-            this.pokemonList.Images.SetKeyName(42, "tyranitar.jpg");
-            this.pokemonList.Images.SetKeyName(43, "urshifu.jpg");
-            this.pokemonList.Images.SetKeyName(44, "venusaur.jpg");
-            this.pokemonList.Images.SetKeyName(45, "wigglytuff.jpg");
-            this.pokemonList.Images.SetKeyName(46, "zacian.jpg");
-            this.pokemonList.Images.SetKeyName(47, "zeraora.jpg");
-            this.pokemonList.Images.SetKeyName(48, "zoroark.jpg");
+            this.pokemonList.Images.SetKeyName(4, "blaziken.jpg");
+            this.pokemonList.Images.SetKeyName(5, "blissey.jpg");
+            this.pokemonList.Images.SetKeyName(6, "buzzwole.jpg");
+            this.pokemonList.Images.SetKeyName(7, "chandelure.jpg");
+            this.pokemonList.Images.SetKeyName(8, "charizard.jpg");
+            this.pokemonList.Images.SetKeyName(9, "cinderace.jpg");
+            this.pokemonList.Images.SetKeyName(10, "clefable.jpg");
+            this.pokemonList.Images.SetKeyName(11, "comfey.jpg");
+            this.pokemonList.Images.SetKeyName(12, "cramorant.jpg");
+            this.pokemonList.Images.SetKeyName(13, "crustle.jpg");
+            this.pokemonList.Images.SetKeyName(14, "decidueye.jpg");
+            this.pokemonList.Images.SetKeyName(15, "delphox.jpg");
+            this.pokemonList.Images.SetKeyName(16, "dodrio.jpg");
+            this.pokemonList.Images.SetKeyName(17, "dragapult.jpg");
+            this.pokemonList.Images.SetKeyName(18, "dragonite.jpg");
+            this.pokemonList.Images.SetKeyName(19, "duraludon.jpg");
+            this.pokemonList.Images.SetKeyName(20, "eldegoss.jpg");
+            this.pokemonList.Images.SetKeyName(21, "espeon.jpg");
+            this.pokemonList.Images.SetKeyName(22, "garchomp.jpg");
+            this.pokemonList.Images.SetKeyName(23, "gardevoir.jpg");
+            this.pokemonList.Images.SetKeyName(24, "gengar.jpg");
+            this.pokemonList.Images.SetKeyName(25, "glaceon.jpg");
+            this.pokemonList.Images.SetKeyName(26, "goodra.jpg");
+            this.pokemonList.Images.SetKeyName(27, "greedent.jpg");
+            this.pokemonList.Images.SetKeyName(28, "greninja.jpg");
+            this.pokemonList.Images.SetKeyName(29, "hoopa.jpg");
+            this.pokemonList.Images.SetKeyName(30, "inteleon.jpg");
+            this.pokemonList.Images.SetKeyName(31, "lapras.jpg");
+            this.pokemonList.Images.SetKeyName(32, "leafeon.jpg");
+            this.pokemonList.Images.SetKeyName(33, "lucario.jpg");
+            this.pokemonList.Images.SetKeyName(34, "machamp.jpg");
+            this.pokemonList.Images.SetKeyName(35, "mamoswine.jpg");
+            this.pokemonList.Images.SetKeyName(36, "meowscarada.jpg");
+            this.pokemonList.Images.SetKeyName(37, "metagross.jpg");
+            this.pokemonList.Images.SetKeyName(38, "mew.jpg");
+            this.pokemonList.Images.SetKeyName(39, "mewtwo_x.jpg");
+            this.pokemonList.Images.SetKeyName(40, "mewtwo_y.jpg");
+            this.pokemonList.Images.SetKeyName(41, "mimikyu.jpg");
+            this.pokemonList.Images.SetKeyName(42, "mr. mime.jpg");
+            this.pokemonList.Images.SetKeyName(43, "ninetails.jpg");
+            this.pokemonList.Images.SetKeyName(44, "pikachu.jpg");
+            this.pokemonList.Images.SetKeyName(45, "sableye.jpg");
+            this.pokemonList.Images.SetKeyName(46, "scizor.jpg");
+            this.pokemonList.Images.SetKeyName(47, "slowbro.jpg");
+            this.pokemonList.Images.SetKeyName(48, "snorlax.jpg");
+            this.pokemonList.Images.SetKeyName(49, "sylveon.jpg");
+            this.pokemonList.Images.SetKeyName(50, "talonflame.jpg");
+            this.pokemonList.Images.SetKeyName(51, "trevenant.jpg");
+            this.pokemonList.Images.SetKeyName(52, "tsareena.jpg");
+            this.pokemonList.Images.SetKeyName(53, "tyranitar.jpg");
+            this.pokemonList.Images.SetKeyName(54, "umbreon.jpg");
+            this.pokemonList.Images.SetKeyName(55, "urshifu.jpg");
+            this.pokemonList.Images.SetKeyName(56, "venusaur.jpg");
+            this.pokemonList.Images.SetKeyName(57, "wigglytuff.jpg");
+            this.pokemonList.Images.SetKeyName(58, "zacian.jpg");
+            this.pokemonList.Images.SetKeyName(59, "zeraora.jpg");
+            this.pokemonList.Images.SetKeyName(60, "zoroark.jpg");
             // 
             // battleItemsList
             // 
@@ -205,6 +223,7 @@
             this.battleItemsList.Images.SetKeyName(5, "Slow+Smoke.jpg");
             this.battleItemsList.Images.SetKeyName(6, "X+Attack.jpg");
             this.battleItemsList.Images.SetKeyName(7, "X+Speed.jpg");
+            this.battleItemsList.Images.SetKeyName(8, "Shedinja+Doll.png");
             // 
             // button5
             // 
@@ -223,25 +242,27 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(57, 6);
+            this.label1.Location = new System.Drawing.Point(115, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 17);
+            this.label1.Size = new System.Drawing.Size(145, 14);
             this.label1.TabIndex = 6;
             this.label1.Text = "Pokemon UNITE Build Display";
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Bisque;
-            this.label2.Location = new System.Drawing.Point(204, 23);
+            this.label2.Location = new System.Drawing.Point(229, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 17);
+            this.label2.Size = new System.Drawing.Size(31, 11);
             this.label2.TabIndex = 7;
             this.label2.Text = "by vec";
             // 
@@ -252,7 +273,8 @@
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 6.5F);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(8, 8);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.settingsToolStripMenuItem});
+            this.settingsToolStripMenuItem,
+            this.presetsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(263, 27);
@@ -262,6 +284,7 @@
             // 
             // settingsToolStripMenuItem
             // 
+            this.settingsToolStripMenuItem.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.changeBackgroundColorToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
@@ -307,6 +330,21 @@
             this.magentaToolStripMenuItem.Text = "Magenta";
             this.magentaToolStripMenuItem.Click += new System.EventHandler(this.magentaToolStripMenuItem_Click);
             // 
+            // presetsToolStripMenuItem
+            // 
+            this.presetsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addNewPresetToolStripMenuItem});
+            this.presetsToolStripMenuItem.Name = "presetsToolStripMenuItem";
+            this.presetsToolStripMenuItem.Size = new System.Drawing.Size(46, 23);
+            this.presetsToolStripMenuItem.Text = "Presets";
+            // 
+            // addNewPresetToolStripMenuItem
+            // 
+            this.addNewPresetToolStripMenuItem.Name = "addNewPresetToolStripMenuItem";
+            this.addNewPresetToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.addNewPresetToolStripMenuItem.Text = "Add New Preset...";
+            this.addNewPresetToolStripMenuItem.Click += new System.EventHandler(this.addNewPresetToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,6 +369,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "UNITE Viewer";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -356,6 +395,8 @@
         private System.Windows.Forms.ToolStripMenuItem greenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem magentaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem presetsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addNewPresetToolStripMenuItem;
     }
 }
 
